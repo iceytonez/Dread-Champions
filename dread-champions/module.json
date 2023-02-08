@@ -1,0 +1,37 @@
+{
+  "id": "dread-champions",
+  "title": "Dread Champions - Tenets of Death",
+  "description": "A set of player options for champions in Pathfinder 2e. Ride with death and wield negative divine energy!",
+  "url": "https://https://github.com/iceytonez/Dread-Champions",
+  "manifest":"https://raw.githubusercontent.com/iceytonez/Dread-Champions/master/module.json",
+  "download":"https://github.com/iceytonez/Dread-Champions/archive/refs/heads/main.zip",
+  "version": "1.0",
+  "authors": [
+    {"name": "Prophecy Productions"}
+  ],
+  "compatibility": {
+    "minimum": "10.287",
+    "verified": "10.291"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.7.0"
+      }
+    }]
+  },
+  "packs": [
+    {
+        "label": "Dread Champions Abilities",
+        "type": "Item",
+        "name": "dc-abilities",
+        "path": "./packs/dc-abilities.db",
+        "system": "pf2e",
+        "package": "dread-champions",
+        "private": false
+    }  
+  ]
+}
